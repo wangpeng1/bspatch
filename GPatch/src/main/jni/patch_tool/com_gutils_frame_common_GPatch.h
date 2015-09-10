@@ -2,8 +2,8 @@
 #include <jni.h>
 /* Header for class com_leepood_bsdiff_tools_PatchTools */
 
-#ifndef _Included_org_hyxf_frame_common_GPatch
-#define _Included_org_hyxf_frame_common_GPatch
+#ifndef _Included_com_gutils_frame_common_GPatch
+#define _Included_com_gutils_frame_common_GPatch
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -12,7 +12,7 @@ extern "C" {
  * Method:    applay_patch
  * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
  */
-JNIEXPORT jint JNICALL Java_org_hyxf_frame_common_GPatch_bspatch
+JNIEXPORT jint JNICALL Java_com_gutils_frame_common_GPatch_bspatch
   (JNIEnv *, jclass, jstring, jstring, jstring);
 
 #ifdef __cplusplus

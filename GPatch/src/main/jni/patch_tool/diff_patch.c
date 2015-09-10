@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "org_hyxf_frame_common_GPatch.h"
+#include "com_gutils_frame_common_GPatch.h"
 
 
 #include <stdlib.h>
@@ -163,7 +163,7 @@ int applypatch(int argc,char * argv[])
     return 0;
 }
 
-JNIEXPORT jint JNICALL Java_org_hyxf_frame_common_GPatch_bspatch(JNIEnv *env,
+JNIEXPORT jint JNICALL Java_com_gutils_frame_common_GPatch_bspatch(JNIEnv *env,
         jobject obj, jstring old, jstring new , jstring patch){
   int argc=4;
   char * argv[argc];

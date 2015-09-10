@@ -1,4 +1,4 @@
-package org.hyxf.frame.common;
+package com.gutils.frame.common;
 
 import android.content.Context;
 import android.os.AsyncTask;
