@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GPatch/GPatch.iml" filepath="$PROJECT_DIR$/GPatch/GPatch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GPatch/GPatch.iml" filepath="$PROJECT_DIR$/GPatch/GPatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/bspatch.iml" filepath="$PROJECT_DIR$/bspatch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bspatch.iml" filepath="$PROJECT_DIR$/bspatch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
     </modules>
   </component>
