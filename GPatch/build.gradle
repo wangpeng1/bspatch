@@ -30,3 +30,4 @@ dependencies {
 
 
 apply from: '../gradle/maven_push.gradle'
+//apply from: '../gradle/bintray.gradle'
