@@ -1,5 +1,24 @@
-.gradle
-/.idea/workspace.xml
-/.idea/libraries
+# Android generated
+bin/
+gen/
+
+# Ant
+build.xml
+local.properties
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Mac
 .DS_Store
-/build
+
+# Ignore gradle files
+.gradle/
+build/
+
+# Private
+signing.properties
