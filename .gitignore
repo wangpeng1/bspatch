@@ -3,6 +3,3 @@
 /.idea/libraries
 .DS_Store
 /build
-/bspatch.iml
-/demo/demo.iml
-/GPatch/GPatch.iml
