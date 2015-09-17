@@ -7,7 +7,6 @@ build.xml
 local.properties
 
 # IntelliJ
-*.iml
 *.ipr
 *.iws
 .idea/
@@ -22,3 +21,4 @@ build/
 
 # Private
 signing.properties
+/local.properties
