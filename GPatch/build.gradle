@@ -27,7 +27,3 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-
-apply from: '../gradle/maven_push.gradle'
-//apply from: '../gradle/bintray.gradle'
