@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 22
@@ -28,7 +30,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-// build a jar with source files
+//-------------------Maven start-------------------
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
@@ -36,5 +38,9 @@ task sourcesJar(type: Jar) {
 artifacts {
     archives sourcesJar
 }
-
 apply from: '../gradle/maven_push.gradle'
+//-------------------Maven   end-------------------
+
+//-------------------JCenter start-------------------
+
+//-------------------JCenter   end-------------------
