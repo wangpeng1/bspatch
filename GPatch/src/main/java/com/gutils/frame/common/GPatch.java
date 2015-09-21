@@ -19,9 +19,9 @@ public class GPatch {
     private native static int bspatch(String oldPackage, String newPack, String patch);
 
     /**
-     * 获取系统内应用安装文件（完整包）
+     * get system application apk
      *
-     * @return apk 文件全路径
+     * @return apk file patch
      */
     private static String getApkFile(Context context) {
         ApplicationInfo ai = context.getApplicationInfo();
