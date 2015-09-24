@@ -11,7 +11,7 @@ Download [the latest AAR][2] or grab via Gradle:
 ```groovy
 compile 'com.gutils:gpatch:0.0.1'
 ```
-if JCenter
+if JCenter:
 ```groovy
 compile 'com.gutils:GPatch:0.0.1'
 ```
