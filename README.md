@@ -37,6 +37,7 @@ If you are using ProGuard you might need to add the following option:
 ```
 
 Test
+--------
 ```
 1.build patch
 >bsdiff demo-old.apk demo-new.apk demo.patch
