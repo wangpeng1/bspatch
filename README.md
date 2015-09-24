@@ -1,7 +1,7 @@
 GPatch
 =======
 
-android patch update
+android patch update【android增量升级】
 
 
 Download
@@ -9,7 +9,7 @@ Download
 
 Download [the latest AAR][2] or grab via Gradle:
 ```groovy
-compile 'com.gutils:gpatch:0.0.0'
+compile 'com.gutils:gpatch:0.0.1'
 ```
 or Maven:
 ```xml
@@ -51,5 +51,5 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
- [2]: https://search.maven.org/remote_content?g=com.gutils&a=gpatch&v=LATEST
+ [2]: http://search.maven.org/remotecontent?filepath=com/gutils/gpatch/0.0.1/gpatch-0.0.1.aar
  [snap]: https://oss.sonatype.org/content/repositories/snapshots/
