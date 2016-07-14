@@ -38,18 +38,24 @@ If you are using ProGuard you might need to add the following option:
 
 Test
 --------
-```
+
 1.build patch
->bsdiff demo-old.apk demo-new.apk demo.patch
+~~~bash
+bsdiff demo-old.apk demo-new.apk demo.patch
+~~~
 
 2.push the patch to SDCard
->adb push demo.patch /sdcard/
+~~~bash
+adb push demo.patch /sdcard/
+~~~
 
 3.install the old apk
->adb install demo-old.apk
+~~~bash
+adb install demo-old.apk
+~~~
 
 4.test
-```
+
 
 License
 --------
